@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "447283758356",
+    "firebase_url": "https://michal260827-2adae-default-rtdb.firebaseio.com",
+    "project_id": "michal260827-2adae",
+    "storage_bucket": "michal260827-2adae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447283758356:android:7bf4b757a6cbed43c16e01",
+        "android_client_info": {
+          "package_name": "michal.rapaport.michal260827"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmt_chriPOGoIMAQwjM7HsjXlR1YskpaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447283758356:android:56fa0842cbd733c7c16e01",
+        "android_client_info": {
+          "package_name": "michal.rapaport.studentsdate263108"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmt_chriPOGoIMAQwjM7HsjXlR1YskpaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

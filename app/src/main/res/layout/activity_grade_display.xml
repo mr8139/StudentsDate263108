@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_grade_display_scene"
+    tools:context=".GradeDisplay">
+
+    <ListView
+        android:layout_width="340dp"
+        android:layout_height="595dp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="-18dp"
+        android:id="@+id/lv"/>
+
+    <Button
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="display"
+        android:text="display"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <Button
+        android:id="@+id/btBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back"
+        android:text="back"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="642dp" />
+</androidx.constraintlayout.motion.widget.MotionLayout>
