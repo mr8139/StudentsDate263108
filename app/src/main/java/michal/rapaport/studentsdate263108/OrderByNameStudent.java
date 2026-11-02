@@ -60,6 +60,8 @@ public class OrderByNameStudent extends AppCompatActivity {
                     Students st = data.getValue(Students.class);
                     if (st != null) {
                         students.add(st);
+
+
                         display.add("שם: " + st.getStuName() + " | שכבה: " + st.getGradeClass() + "'" + st.getStuClass());
                     }
                 }

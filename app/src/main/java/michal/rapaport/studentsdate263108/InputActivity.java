@@ -28,11 +28,9 @@ public class InputActivity extends AppCompatActivity {
          etClass=findViewById(R.id.etClass);
          etid=findViewById(R.id.etid);
     }
-
     public void back(View view) {
         finish();
     }
-
     public void enter(View view) {
         String name=etName.getText().toString();
         String gradeClass=etGradeClass.getText().toString();
@@ -44,7 +42,6 @@ public class InputActivity extends AppCompatActivity {
         etGradeClass.setText("");
         etClass.setText("");
         etid.setText("");
-
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

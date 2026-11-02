@@ -35,14 +35,10 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Students> students;
     //יצירת רשימה להצגת שם ושם משפחה של הסטודנטים בלבד
     ArrayList<String> display;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         lv=findViewById(R.id.lv);
         //מצגת 2114 שקופית 6 יצירת העצם
         Students st1=new Students(12,1,"michal","123456");

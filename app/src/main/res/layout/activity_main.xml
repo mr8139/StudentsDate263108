@@ -25,4 +25,5 @@
         android:onClick="enter"
         android:text="enter data" />
 
+
 </LinearLayout>
